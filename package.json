@@ -1,0 +1,26 @@
+{
+  "name": "madcue-auth",
+  "version": "1.0.0",
+  "description": "A token based auth service for Madcue.",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "./node_modules/typescript/bin/tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "authentication",
+    "authorization"
+  ],
+  "author": "Siddhant Sinha",
+  "license": "ISC",
+  "dependencies": {
+    "@types/es6-shim": "^0.31.37",
+    "express": "^4.16.3",
+    "typescript": "^3.0.3"
+  },
+  "devDependencies": {
+    "@types/express": "^4.16.0",
+    "mocha": "^5.2.0",
+    "nodemon": "^1.18.4"
+  }
+}
